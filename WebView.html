@@ -25,14 +25,13 @@
             </div>
         </header>
         <div class="Main">
-            <h1>Hello u!</h1>
-            <h2>This is my website, and below is</h2>
-            <h3>My description:</h3>
-                <ul>
-                    <li>Facebook:<a href="https://www.facebook.com/Huy.Nightmare">@Huy.Nightmare</a></li>
-                    <li>Github:<a href="https://github.com/HuyWizite">@HuyWizite</a></li>
-                    <li>This Website's Source Code: <a href="https://github.com/HuyWizite/huywizite.github.io">huywizite.github.io</a></li>
-                </ul>
+            <div style="text-align: center;">
+                <button onclick="Back()">Back</button>
+                <button onclick="Forward()">Forward</button>
+                <button onclick="Refresh()">🔄 Refresh</button> 
+                <button onclick="newURL()">🌍 Enter new URL</button>
+            </div>
+            <iframe id="Webview" src="https://example.com" frameborder="0" width="100%" height="400px"></iframe>
         </div>
         <footer class="footer">
             <h2 hidden>footer</h2>
@@ -45,5 +44,6 @@
                 <span>© 2025 HuyWizite,&nbsp;Coder.</span>
             </div>
         </footer>
+        <script src="WebView.js"></script>
     </body>
 </html>
